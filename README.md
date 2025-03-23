@@ -14,6 +14,8 @@ Welcome to your **own private financial document analyst** – running completel
 This Streamlit app allows users to:
 
 - Upload any **financial PDF documents** (e.g., 10-Q, 10-K, annual reports) or **Select from existing documents from Vector DB**.
+  
+  --`I have fetched the sample documents for google and amazon from SEC filings. Originally the documents were in htm format which were converted into pdf later.`
 
   <img width="1470" alt="Screenshot 2025-03-23 at 9 57 39 PM" src="https://github.com/user-attachments/assets/9f14ea00-6877-461a-a2c0-af8027f44caa" />
 
