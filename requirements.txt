@@ -1,0 +1,26 @@
+# Streamlit - For building the web app
+streamlit==1.32.2
+
+# LangChain Core - Core abstractions for LLM apps
+langchain-core==0.1.39
+
+# LangChain Community - For FAISS and other integrations
+langchain-community==0.0.32
+
+# LangChain Ollama - For using Ollama LLMs locally
+langchain-ollama==0.1.3
+
+# LangChain Text Splitters - To split markdown/text into chunks
+langchain-text-splitters==0.0.1
+
+# FAISS - For local vector storage and retrieval
+faiss-cpu==1.7.4
+
+# pdf2image - To convert PDF pages to images
+pdf2image==1.17.0
+
+# Pillow - Image processing used with pdf2image
+Pillow==10.2.0
+
+# docling - For document parsing and conversion to markdown
+docling==0.0.5
