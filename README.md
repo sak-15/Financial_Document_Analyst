@@ -30,6 +30,13 @@ This Streamlit app allows users to:
 
 
 - Reuse previously processed documents without uploading again.
+  
+---
+## ⚙️ Workflows
+
+![Document_ingestion drawio](https://github.com/user-attachments/assets/4511fad5-4b03-4941-ab0e-1583815ef86c)
+
+![Retrieval drawio (1)](https://github.com/user-attachments/assets/3388fcb7-a945-45d0-a8bc-cc1a087251ca)
 
 ---
 
