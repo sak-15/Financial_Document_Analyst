@@ -1,5 +1,6 @@
-# streamlit run app.py
+# Built Streamlit app for better user experience
 
+# Importing required libraries
 import os
 import streamlit as st
 from pathlib import Path
@@ -15,6 +16,10 @@ os.makedirs(VECTOR_DB_FOLDER, exist_ok=True)
 
 # Function to display PDF content as images in the sidebar
 def display_pdf_in_sidebar(pdf_path, file_name):
+    '''
+    This function converts the PDF to images and displays them in the sidebar.
+    I have added Exception handling to catch errors while loading the PDF.
+    '''
     try:
         images_folder = Path(VECTOR_DB_FOLDER) / file_name / "images"
         os.makedirs(images_folder, exist_ok=True)
@@ -47,6 +52,7 @@ st.title("📊 Financial Document Analysis Using RAG Locally")
 # Subtitle
 st.subheader("Use this app to analyze financial documents and answer questions.\n 💼 Secure, Local AI for Your Financial PDFs. Your documents are safe with me! 🤫 ")
 
+# Added Instructions for the user in the sidebar on how how to use the app
 with st.sidebar:
     st.markdown("### ℹ️ How to use")
     st.markdown("1. Upload a financial PDF\n2. Process it\n3. Ask your question ✅")
@@ -138,6 +144,7 @@ if st.button("Submit Question") and question and selected_vector_db != "Upload N
             response += chunk  # Append each chunk of the response
             response_placeholder.markdown(response.replace('$', '\\$'))  # Update the placeholder with the new response
 
+# Added footer with my GitHub and LinkedIn links
 st.markdown("---")
 st.markdown("Made by Sakshi | Powered by LangChain + Ollama", unsafe_allow_html=True)
 st.markdown("🧑‍💻[GitHub](https://github.com/sak-15) | 🔗[LinkedIn](https://www.linkedin.com/in/sakshi-gusain/)")
