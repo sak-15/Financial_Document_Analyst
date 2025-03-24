@@ -40,6 +40,8 @@ This Streamlit app allows users to:
 
 ![Retrieval drawio (1)](https://github.com/user-attachments/assets/3388fcb7-a945-45d0-a8bc-cc1a087251ca)
 
+- Made with the help of Draw.io
+
 ---
 
 ## 🧠 How does it work?
