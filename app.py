@@ -10,9 +10,9 @@ from langchain_community.vectorstores import FAISS
 from pdf2image import convert_from_path, exceptions
 from PIL import Image
 
-# Path to vector DB folder
+# Path to vector DB folder ( Used CONSTANT variable to store the path for best coding practices)
 VECTOR_DB_FOLDER = "vector_db"
-os.makedirs(VECTOR_DB_FOLDER, exist_ok=True)
+os.makedirs(VECTOR_DB_FOLDER, exist_ok=True) # Create folder if it doesn't exist
 
 # Function to display PDF content as images in the sidebar
 def display_pdf_in_sidebar(pdf_path, file_name):
