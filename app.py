@@ -140,4 +140,4 @@ if st.button("Submit Question") and question and selected_vector_db != "Upload N
 
 st.markdown("---")
 st.markdown("Made by Sakshi | Powered by LangChain + Ollama", unsafe_allow_html=True)
-st.markdown("[GitHub](https://github.com/sak-15) | [LinkedIn](https://www.linkedin.com/in/sakshi-gusain/)")
+st.markdown("🧑‍💻[GitHub](https://github.com/sak-15) | 🔗[LinkedIn](https://www.linkedin.com/in/sakshi-gusain/)")
